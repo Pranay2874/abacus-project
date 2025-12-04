@@ -11,6 +11,8 @@ const QualityResultSchema = new mongoose.Schema({
   issues: [{ type: String }],
   // detailed breakdown: [{ name, count, affectedAmount }]
   issuesDetailed: [{ name: String, count: Number, affectedAmount: Number }],
+  // anomalies detected by ML/Stats
+  anomalies: [{ type: { type: String }, detail: String, severity: String }],
   createdAt: { type: Date, default: () => new Date() }
 });
 

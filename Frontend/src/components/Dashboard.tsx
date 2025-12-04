@@ -4,7 +4,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Tooltip, Lege
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend, ArcElement)
 import io from 'socket.io-client'
 
-function SummaryCard({ title, value }: { title: string, value: any }){
+function SummaryCard({ title, value }: { title: string, value: any }) {
   return (
     <div className="bg-white p-4 rounded shadow">
       <div className="text-sm text-gray-500">{title}</div>
@@ -13,17 +13,17 @@ function SummaryCard({ title, value }: { title: string, value: any }){
   )
 }
 
-export default function Dashboard({ data }: { data: any }){
+export default function Dashboard({ data }: { data: any }) {
   const [toasts, setToasts] = useState<string[]>([]);
 
-  useEffect(()=>{
+  useEffect(() => {
     const socket = io('http://localhost:3000');
-    socket.on('severity_alert', (d:any)=> setToasts(t=>[...t, `Severity ${d.severity} for ${d.fileName} (${Math.round(d.qualityScore)})`]))
-    socket.on('cross_file_duplicates', (d:any)=> setToasts(t=>[...t, `Cross-file duplicates detected: ${d.duplicates.length}`]))
-    socket.on('financial_alert', (d:any)=> setToasts(t=>[...t, `High affected amount: ${d.totalAffectedAmount}`]))
-    socket.on('quality_alert', (d:any)=> setToasts(t=>[...t, `Low quality score: ${Math.round(d.qualityScore)}`]))
-    return ()=>{ socket.disconnect(); }
-  },[])
+    socket.on('severity_alert', (d: any) => setToasts(t => [...t, `Severity ${d.severity} for ${d.fileName} (${Math.round(d.qualityScore)})`]))
+    socket.on('cross_file_duplicates', (d: any) => setToasts(t => [...t, `Cross-file duplicates detected: ${d.duplicates.length}`]))
+    socket.on('financial_alert', (d: any) => setToasts(t => [...t, `High affected amount: ${d.totalAffectedAmount}`]))
+    socket.on('quality_alert', (d: any) => setToasts(t => [...t, `Low quality score: ${Math.round(d.qualityScore)}`]))
+    return () => { socket.disconnect(); }
+  }, [])
 
   const breakdown = data.issuesBreakdown && data.issuesBreakdown.length ? data.issuesBreakdown : (data.issues || []).map((s: string) => {
     const [k, v] = s.split(':').map((x: string) => x.trim())
@@ -45,7 +45,7 @@ export default function Dashboard({ data }: { data: any }){
   }
 
   // determine row color based on file severity when the row has any issues
-  function rowClassForRow(r:any, idx:number){
+  function rowClassForRow(r: any, idx: number) {
     const base = idx % 2 === 0 ? 'bg-white' : 'bg-gray-50';
     const hasIssues = Array.isArray(r.issues) && r.issues.length > 0;
     if (!hasIssues) return base;
@@ -74,7 +74,7 @@ export default function Dashboard({ data }: { data: any }){
                 </tr>
               </thead>
               <tbody>
-                {data.parsed.map((r:any, idx:number)=>{
+                {data.parsed.map((r: any, idx: number) => {
                   const cls = rowClassForRow(r, idx);
                   return (
                     <tr key={idx} className={`${cls}`}>
@@ -87,7 +87,7 @@ export default function Dashboard({ data }: { data: any }){
                       <td className="p-1">
                         {Array.isArray(r.issues) && r.issues.length ? (
                           <div className="text-xs text-red-700">
-                            {r.issues.map((it:any, i:number)=> <div key={i}>{it.type}{it.detail?` (${it.detail})`:''}</div>)}
+                            {r.issues.map((it: any, i: number) => <div key={i}>{it.type}{it.detail ? ` (${it.detail})` : ''}</div>)}
                           </div>
                         ) : <span className="text-xs text-gray-500">—</span>}
                       </td>
@@ -128,14 +128,43 @@ export default function Dashboard({ data }: { data: any }){
             </table>
           </div>
 
+          {data.anomalies && data.anomalies.length > 0 && (
+            <div className="mt-4">
+              <h4 className="font-semibold text-purple-700">Anomaly Detection</h4>
+              <div className="mt-2 max-h-40 overflow-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-left"><th>Type</th><th>Detail</th><th>Severity</th></tr>
+                  </thead>
+                  <tbody>
+                    {data.anomalies
+                      .filter((a: any) => !a.type.startsWith('Schema Error'))
+                      .map((a: any, idx: number) => (
+                        <tr key={idx} className="bg-purple-50">
+                          <td className="p-1">{a.type}</td>
+                          <td className="p-1 text-xs">{a.detail}</td>
+                          <td className="p-1">
+                            <span className={`px-2 py-1 rounded text-xs ${a.severity === 'CRITICAL' ? 'bg-red-200 text-red-800' :
+                                a.severity === 'HIGH' ? 'bg-orange-200 text-orange-800' :
+                                  a.severity === 'MEDIUM' ? 'bg-yellow-200 text-yellow-800' :
+                                    'bg-blue-200 text-blue-800'
+                              }`}>{a.severity}</span>
+                          </td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
       <div className="fixed right-4 bottom-4 space-y-2">
-        {toasts.slice(-4).map((t,i)=> (
+        {toasts.slice(-4).map((t, i) => (
           <div key={i} className="bg-white p-3 rounded shadow">{t}</div>
         ))}
       </div>
-    </div>
+    </div >
   )
 }

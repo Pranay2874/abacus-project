@@ -1,0 +1,674 @@
+claimId,patientName,diagnosisCode,amount,provider,date
+CLM-2025-00001,James Anderson,,1043.48,Downtown Urgent Care,2024-09-02
+CLM-2025-00005,John Wilson,J45.909,522.81,Wellness Family Practice,2024-03-15
+CLM-2025-00006,,R50.9,4427.47,Advanced Specialists,2024-02-27
+CLM-2025-00009,Mary Thomas,E11.9,4351.85,Memorial Medical Center,2024-08-27
+CLM-2025-00011,Karen Moore,M79.3,873.39,Northside Medical Group,2024-02-08
+CLM-2025-00012,John Miller,K21.9,3340.52,Memorial Medical Center,2024-05-28
+CLM-2025-00013,William Garcia,M79.3,1946.69,City General Hospital,2024-09-16
+CLM-2025-00016,John Johnson,N39.0,1990.32,Advanced Specialists,2024-04-08
+CLM-2025-00018,Mary Gonzalez,N39.0,2116.14,Downtown Urgent Care,2024-02-28
+CLM-2025-00020,,E11.9,2941.25,Northside Medical Group,2024-02-19
+CLM-2025-00021,Charles Miller,Z23,4385.49,St. Mary's Clinic,2024-12-25
+CLM-2025-00022,James Hernandez,M79.3,676.84,City General Hospital,2024-06-13
+CLM-2025-00023,Karen Taylor,F32.9,-10.09,City General Hospital,2024-04-23
+CLM-2025-00024,Susan Moore,,934.18,Riverside Health,2025-01-23
+CLM-2025-00025,,G43.909,187.93,Northside Medical Group,2024-11-01
+CLM-2025-00026,Karen Jackson,N39.0,1558.69,City General Hospital,2024-07-04
+CLM-2025-00027,David Thomas,Z23,4570.99,City General Hospital,2024-04-02
+CLM-2025-00028,Sarah Martinez,F32.9,2367.70,St. Mary's Clinic,2025-05-12
+CLM-2025-00029,Sarah Thomas,M79.3,3597.53,Riverside Health,2024-01-10
+CLM-2025-00030,Mary Martinez,N39.0,4051.06,Wellness Family Practice,2024-05-16
+CLM-2025-00032,Karen Miller,G43.909,1316.23,Northside Medical Group,2024-03-11
+CLM-2025-00033,Robert Moore,E11.9,1209.99,Downtown Urgent Care,2024-09-24
+CLM-2025-00034,Richard Williams,N39.0,2552.48,Wellness Family Practice,2024-07-18
+CLM-2025-00037,Sarah Hernandez,R50.9,192.55,Memorial Medical Center,2024-10-28
+CLM-2025-00038,William Gonzalez,K21.9,27.08,Northside Medical Group,2024-05-07
+CLM-2025-00039,Robert Garcia,I10,3940.10,Advanced Specialists,2025-10-02
+CLM-2025-00041,Barbara Rodriguez,N39.0,1736.34,Memorial Medical Center,2024-12-17
+CLM-2025-00043,Barbara Garcia,F32.9,1190.15,City General Hospital,2025-06-27
+CLM-2025-00044,Linda Taylor,G43.909,914.67,Northside Medical Group,2024-04-09
+CLM-2025-00046,Sarah Brown,F32.9,2493.41,City General Hospital,2024-01-25
+CLM-2025-00047,Patricia Thomas,N39.0,4572.01,Memorial Medical Center,2024-08-01
+CLM-2025-00048,Barbara Wilson,M79.3,3310.64,Memorial Medical Center,2024-03-11
+CLM-2025-00052,Mary Martinez,N39.0,-79.53,Advanced Specialists,2024-12-03
+CLM-2025-00053,Richard Rodriguez,F32.9,4091.32,Memorial Medical Center,2025-04-14
+CLM-2025-00055,Jennifer Thomas,R50.9,2764.02,Downtown Urgent Care,2024-11-15
+CLM-2025-00057,David Anderson,J45.909,3899.67,Northside Medical Group,2025-12-08
+CLM-2025-00059,David Wilson,,4511.39,Downtown Urgent Care,2024-08-09
+CLM-2025-00061,Joseph Smith,Z23,23.78,St. Mary's Clinic,2024-07-22
+CLM-2025-00062,Charles Wilson,M79.3,3765.75,St. Mary's Clinic,2024-10-28
+CLM-2025-00063,Karen Smith,I10,737.47,City General Hospital,2024-09-20
+CLM-2025-00064,,R50.9,901.14,Downtown Urgent Care,2024-05-21
+CLM-2025-00065,,J45.909,1602.23,Riverside Health,2024-07-22
+CLM-2025-00066,Mary Jones,G43.909,2716.75,Riverside Health,2024-11-12
+CLM-2025-00067,Mary Rodriguez,N39.0,2711.14,City General Hospital,2024-06-07
+CLM-2025-00068,Robert Williams,I10,2239.37,Downtown Urgent Care,2024-12-11
+CLM-2025-00069,Thomas Moore,I10,319.49,St. Mary's Clinic,2024-09-05
+CLM-2025-00070,Barbara Taylor,K21.9,637.62,Advanced Specialists,2024-12-04
+CLM-2025-00072,,R50.9,3589.97,City General Hospital,2024-10-16
+CLM-2025-00073,James Thomas,I10,3663.05,City General Hospital,2024-08-12
+CLM-2025-00074,William Jones,INV894,3989.84,City General Hospital,2024-11-12
+CLM-2025-00076,Charles Miller,M79.3,4397.88,Riverside Health,2024-10-04
+CLM-2025-00079,Thomas Davis,E11.9,1886.69,City General Hospital,2024-06-13
+CLM-2025-00081,Joseph Wilson,M79.3,709.94,St. Mary's Clinic,2024-10-04
+CLM-2025-00082,,J45.909,628.86,Advanced Specialists,2024-11-28
+CLM-2025-00083,Jessica Johnson,M79.3,3292.08,St. Mary's Clinic,2024-01-22
+CLM-2025-00086,Patricia Brown,M79.3,2344.98,St. Mary's Clinic,2024-07-11
+CLM-2025-00088,Susan Rodriguez,Z23,1558.78,Advanced Specialists,2025-03-05
+CLM-2025-00089,Robert Anderson,G43.909,1771.17,St. Mary's Clinic,2024-09-19
+CLM-2025-00090,Robert Williams,F32.9,4226.46,Downtown Urgent Care,2024-03-27
+CLM-2025-00093,Charles Hernandez,J45.909,3976.06,Advanced Specialists,2024-06-21
+CLM-2025-00095,Charles Wilson,E11.9,3056.01,Advanced Specialists,2024-12-06
+CLM-2025-00096,Thomas Williams,INV906,3971.02,St. Mary's Clinic,2024-01-01
+CLM-2025-00098,Linda Miller,Z23,4630.53,,2024-12-05
+CLM-2025-00100,Richard Martinez,F32.9,1654.37,Memorial Medical Center,2024-05-17
+CLM-2025-00102,Sarah Gonzalez,INV392,227.57,St. Mary's Clinic,2024-10-08
+CLM-2025-00105,David Thomas,Z23,3729.45,Wellness Family Practice,2024-11-12
+CLM-2025-00106,,G43.909,2103.20,St. Mary's Clinic,2024-12-06
+CLM-2025-00110,Jessica Anderson,E11.9,3876.50,Downtown Urgent Care,2024-10-09
+CLM-2025-00113,William Martinez,K21.9,3656.72,Memorial Medical Center,2024-03-21
+CLM-2025-00114,Thomas Taylor,F32.9,2395.70,Downtown Urgent Care,2024-01-15
+CLM-2025-00115,Jessica Martinez,R50.9,67502.60,City General Hospital,2024-02-15
+CLM-2025-00116,Joseph Jackson,I10,3399.14,Advanced Specialists,2024-08-02
+CLM-2025-00117,Karen Gonzalez,Z23,710.53,Memorial Medical Center,2024-09-03
+CLM-2025-00118,Robert Johnson,Z23,1219.89,Northside Medical Group,2024-10-08
+CLM-2025-00119,Sarah Wilson,E11.9,454.49,Northside Medical Group,2024-12-16
+CLM-2025-00120,Thomas Martinez,J45.909,3210.16,Advanced Specialists,2024-11-26
+CLM-2025-00123,Barbara Thomas,N39.0,N/A,Wellness Family Practice,2024-06-11
+CLM-2025-00124,Michael Jones,E11.9,2879.72,Riverside Health,2024-12-12
+CLM-2025-00125,John Wilson,,540.40,Northside Medical Group,2025-03-12
+CLM-2025-00126,John Johnson,F32.9,3387.92,St. Mary's Clinic,2024-11-19
+CLM-2025-00127,Karen Rodriguez,R50.9,3460.25,Downtown Urgent Care,2024-06-13
+CLM-2025-00128,Jennifer Hernandez,Z23,1356.06,St. Mary's Clinic,2024-04-25
+CLM-2025-00129,Patricia Jones,G43.909,3462.99,City General Hospital,2024-01-04
+CLM-2025-00131,Jessica Rodriguez,R50.9,1495.60,Downtown Urgent Care,2024-10-16
+CLM-2025-00132,Mary Williams,E11.9,3815.26,St. Mary's Clinic,2024-01-05
+CLM-2025-00133,Michael Anderson,INV974,715.15,Northside Medical Group,2024-07-04
+CLM-2025-00134,Patricia Davis,Z23,3879.17,St. Mary's Clinic,2024-07-19
+CLM-2025-00135,Charles Wilson,M79.3,N/A,Riverside Health,2024-01-24
+CLM-2025-00138,Michael Martin,I10,1741.92,Memorial Medical Center,2024-04-05
+CLM-2025-00139,,Z23,2265.44,City General Hospital,2024-03-07
+CLM-2025-00140,Charles Davis,N39.0,1395.40,City General Hospital,2024-02-12
+CLM-2025-00142,David Thomas,K21.9,2662.66,Wellness Family Practice,2024-12-26
+CLM-2025-00145,Robert Wilson,M79.3,3933.58,Northside Medical Group,2024-09-26
+CLM-2025-00146,Elizabeth Thomas,,3268.75,Riverside Health,2024-03-08
+CLM-2025-00147,Karen Jones,E11.9,593.53,Advanced Specialists,2024-04-01
+CLM-2025-00150,Linda Jackson,G43.909,3846.58,Riverside Health,2024-03-05
+CLM-2025-00151,Karen Miller,G43.909,4048.10,Memorial Medical Center,2024-04-08
+CLM-2025-00152,Richard Martinez,G43.909,2443.62,St. Mary's Clinic,2024-11-12
+CLM-2025-00153,Thomas Jones,INV513,1668.24,Memorial Medical Center,2024-05-10
+CLM-2025-00154,Joseph Moore,M79.3,654.93,City General Hospital,2024-08-21
+CLM-2025-00155,Jessica Williams,I10,3267.75,Downtown Urgent Care,2024-12-05
+CLM-2025-00157,David Williams,G43.909,1309.64,Wellness Family Practice,2024-01-26
+CLM-2025-00158,Thomas Garcia,N39.0,1028.67,,2024-11-06
+CLM-2025-00159,William Gonzalez,K21.9,3484.72,Riverside Health,2024-02-13
+CLM-2025-00161,Robert Anderson,M79.3,1387.73,Riverside Health,2024-06-04
+CLM-2025-00162,James Martin,K21.9,4421.80,Memorial Medical Center,2024-01-11
+CLM-2025-00163,Susan Jones,M79.3,405.63,Advanced Specialists,2025-12-05
+CLM-2025-00164,Karen Lopez,N39.0,52.04,Memorial Medical Center,2024-03-18
+CLM-2025-00165,Jennifer Davis,INV696,3792.98,St. Mary's Clinic,2024-11-20
+CLM-2025-00169,William Davis,R50.9,2476.29,Riverside Health,2024-02-20
+CLM-2025-00170,William Moore,J45.909,2618.46,Wellness Family Practice,2024-12-03
+CLM-2025-00173,Robert Anderson,M79.3,557.15,Advanced Specialists,2024-03-15
+CLM-2025-00177,David Smith,I10,3744.28,Riverside Health,2024-01-09
+CLM-2025-00179,Linda Martin,F32.9,2167.24,Riverside Health,2024-04-11
+CLM-2025-00180,Jennifer Hernandez,M79.3,2004.76,Northside Medical Group,2024-02-22
+CLM-2025-00181,Elizabeth Miller,INV283,543.68,Downtown Urgent Care,2024-07-08
+CLM-2025-00182,Karen Smith,N39.0,1046.96,Northside Medical Group,2025-02-18
+CLM-2025-00185,Joseph Thomas,I10,283.21,Wellness Family Practice,2024-03-28
+CLM-2025-00186,Barbara Gonzalez,F32.9,976.84,Wellness Family Practice,2024-04-15
+CLM-2025-00187,Barbara Jackson,J45.909,3740.99,Riverside Health,2024-03-21
+CLM-2025-00190,Patricia Martin,F32.9,4401.80,Northside Medical Group,2024-07-08
+CLM-2025-00191,Sarah Moore,E11.9,3702.14,Wellness Family Practice,2024-11-05
+CLM-2025-00192,Elizabeth Wilson,G43.909,1223.54,Advanced Specialists,2024-05-07
+CLM-2025-00193,Joseph Miller,J45.909,4524.12,St. Mary's Clinic,2024-03-06
+CLM-2025-00194,Charles Johnson,J45.909,567.97,Northside Medical Group,2024-10-28
+CLM-2025-00163,Jessica Smith,R50.9,2590.69,Advanced Specialists,2024-11-08
+CLM-2025-00196,Jennifer Jones,F32.9,1746.21,City General Hospital,2024-06-20
+CLM-2025-00197,Joseph Miller,Z23,4441.80,Memorial Medical Center,2024-11-13
+CLM-2025-00202,Karen Davis,E11.9,2606.50,,2024-06-07
+CLM-2025-00203,,J45.909,1854.80,City General Hospital,2024-11-05
+CLM-2025-00204,Jessica Brown,F32.9,147.73,Advanced Specialists,2024-02-28
+CLM-2025-00205,Barbara Jones,K21.9,3172.49,St. Mary's Clinic,2024-06-12
+CLM-2025-00206,John Miller,G43.909,3675.79,Northside Medical Group,2024-06-19
+CLM-2025-00207,Thomas Martin,F32.9,504.68,,2024-06-07
+CLM-2025-00209,,N39.0,4551.39,City General Hospital,2024-01-18
+CLM-2025-00210,William Brown,,522.84,City General Hospital,2024-04-01
+CLM-2025-00212,Robert Jackson,Z23,N/A,Northside Medical Group,2024-11-11
+CLM-2025-00213,Sarah Martin,E11.9,4522.55,City General Hospital,2025-03-04
+CLM-2025-00214,Richard Martin,R50.9,1920.26,Northside Medical Group,2024-11-01
+CLM-2025-00215,,I10,3737.99,Wellness Family Practice,2024-07-22
+CLM-2025-00216,,J45.909,1869.79,Northside Medical Group,2024-04-24
+CLM-2025-00218,Patricia Lopez,,3453.04,Riverside Health,2025-02-04
+CLM-2025-00219,Patricia Anderson,Z23,4199.13,Advanced Specialists,2024-07-08
+CLM-2025-00220,Karen Anderson,R50.9,4373.86,Downtown Urgent Care,2024-07-26
+CLM-2025-00221,Sarah Lopez,Z23,1605.60,Advanced Specialists,2024-11-11
+CLM-2025-00222,Elizabeth Jones,J45.909,1936.91,St. Mary's Clinic,2024-06-05
+CLM-2025-00223,Charles Johnson,Z23,1550.29,Northside Medical Group,2024-02-01
+CLM-2025-00186,John Wilson,G43.909,1892.82,Northside Medical Group,2024-12-23
+CLM-2025-00226,Jessica Miller,INV997,3744.18,Riverside Health,2024-08-23
+CLM-2025-00227,Joseph Martinez,J45.909,3153.26,Northside Medical Group,2024-08-15
+CLM-2025-00228,Patricia Garcia,Z23,4404.51,Downtown Urgent Care,2024-01-03
+CLM-2025-00229,John Jackson,I10,2404.18,City General Hospital,2024-04-26
+CLM-2025-00230,Jessica Jackson,M79.3,2840.40,Northside Medical Group,2024-03-20
+CLM-2025-00231,Barbara Wilson,R50.9,2321.95,City General Hospital,2024-06-12
+CLM-2025-00232,William Lopez,R50.9,1013.27,Wellness Family Practice,2024-06-17
+CLM-2025-00234,James Anderson,F32.9,2785.36,City General Hospital,2024-10-08
+CLM-2025-00235,Linda Johnson,INV654,2483.89,Northside Medical Group,2024-05-24
+CLM-2025-00238,Jennifer Martinez,F32.9,1463.83,Riverside Health,2024-10-09
+CLM-2025-00240,Jessica Martin,Z23,3055.24,St. Mary's Clinic,2024-03-25
+CLM-2025-00243,Michael Williams,E11.9,18.77,City General Hospital,2024-09-03
+CLM-2025-00246,Mary Moore,J45.909,1082.70,City General Hospital,2024-03-04
+CLM-2025-00247,,I10,1507.60,Northside Medical Group,2024-10-18
+CLM-2025-00249,Richard Gonzalez,I10,4063.76,Downtown Urgent Care,2025-10-08
+CLM-2025-00231,Barbara Gonzalez,I10,3586.67,Riverside Health,2024-09-23
+CLM-2025-00252,David Rodriguez,M79.3,586.45,Downtown Urgent Care,2024-05-21
+CLM-2025-00253,Susan Rodriguez,G43.909,74783.74,Riverside Health,2024-09-02
+CLM-2025-00254,Karen Jones,J45.909,1752.88,City General Hospital,2024-08-13
+CLM-2025-00256,John Anderson,N39.0,1152.62,City General Hospital,2024-05-17
+CLM-2025-00259,Karen Davis,R50.9,163.41,Wellness Family Practice,2024-07-08
+CLM-2025-00261,Patricia Garcia,R50.9,3113.57,Advanced Specialists,2024-04-12
+CLM-2025-00262,Michael Jones,M79.3,2694.64,Downtown Urgent Care,2024-11-22
+CLM-2025-00264,Joseph Thomas,G43.909,2018.49,Riverside Health,2024-06-11
+CLM-2025-00239,Mary Miller,F32.9,3637.86,St. Mary's Clinic,2025-10-09
+CLM-2025-00266,Barbara Williams,N39.0,884.16,St. Mary's Clinic,2024-12-27
+CLM-2025-00267,John Taylor,K21.9,3872.66,Riverside Health,2024-05-27
+CLM-2025-00268,Charles Garcia,R50.9,N/A,Northside Medical Group,2024-01-23
+CLM-2025-00271,Barbara Gonzalez,Z23,1753.60,City General Hospital,2024-12-19
+CLM-2025-00274,,G43.909,4111.02,Wellness Family Practice,2024-06-18
+CLM-2025-00275,Jessica Wilson,E11.9,3651.67,Riverside Health,2024-02-28
+CLM-2025-00276,Jennifer Jones,R50.9,4169.95,Downtown Urgent Care,2024-02-27
+CLM-2025-00277,Thomas Jackson,R50.9,3474.36,Wellness Family Practice,2024-02-01
+CLM-2025-00278,Elizabeth Brown,E11.9,1498.27,Northside Medical Group,2025-04-10
+CLM-2025-00280,Mary Gonzalez,K21.9,1897.56,City General Hospital,2024-07-17
+CLM-2025-00281,Patricia Brown,E11.9,1583.68,Northside Medical Group,2024-12-06
+CLM-2025-00282,Elizabeth Williams,F32.9,3921.56,City General Hospital,2024-05-28
+CLM-2025-00285,Patricia Garcia,G43.909,2019.29,Riverside Health,2024-04-05
+CLM-2025-00287,William Martinez,E11.9,797.75,Riverside Health,2024-08-15
+CLM-2025-00288,Mary Wilson,E11.9,4252.81,St. Mary's Clinic,2024-06-14
+CLM-2025-00290,Susan Thomas,F32.9,653.96,,2024-04-02
+CLM-2025-00293,Mary Wilson,N39.0,2354.09,Advanced Specialists,2024-04-12
+CLM-2025-00294,Patricia Martin,E11.9,2586.60,City General Hospital,2024-04-10
+CLM-2025-00296,Elizabeth Miller,E11.9,36947.39,City General Hospital,2024-11-12
+CLM-2025-00297,Charles Johnson,,4244.25,City General Hospital,2024-01-24
+CLM-2025-00298,David Smith,Z23,N/A,Wellness Family Practice,2024-10-04
+CLM-2025-00299,James Garcia,M79.3,1434.84,Riverside Health,2024-02-01
+CLM-2025-00300,Jessica Taylor,R50.9,1318.78,Wellness Family Practice,2024-01-22
+CLM-2025-00304,,K21.9,4051.99,Wellness Family Practice,2024-02-09
+CLM-2025-00305,Mary Williams,,255.35,Riverside Health,2024-03-06
+CLM-2025-00306,Joseph Miller,Z23,1078.91,Northside Medical Group,2024-10-09
+CLM-2025-00308,Mary Jones,N39.0,1553.75,St. Mary's Clinic,2024-06-18
+CLM-2025-00309,Karen Jones,N39.0,972.61,Riverside Health,2024-04-15
+CLM-2025-00310,,K21.9,982.67,Riverside Health,2025-10-14
+CLM-2025-00312,Linda Moore,INV120,4304.08,Wellness Family Practice,2024-08-21
+CLM-2025-00313,David Miller,F32.9,1623.31,Northside Medical Group,2024-03-25
+CLM-2025-00315,Elizabeth Brown,I10,3029.92,Downtown Urgent Care,2024-11-08
+CLM-2025-00316,Jessica Brown,Z23,2510.99,Wellness Family Practice,2024-01-03
+CLM-2025-00317,,N39.0,4123.67,Downtown Urgent Care,2024-05-16
+CLM-2025-00319,,F32.9,4478.02,Riverside Health,2024-07-03
+CLM-2025-00320,,F32.9,357.79,Downtown Urgent Care,2024-03-07
+CLM-2025-00322,Susan Miller,N39.0,3968.09,Advanced Specialists,2024-12-17
+CLM-2025-00323,Linda Davis,J45.909,692.89,Downtown Urgent Care,2024-04-04
+CLM-2025-00324,Michael Hernandez,R50.9,20.73,St. Mary's Clinic,2024-11-14
+CLM-2025-00325,Linda Smith,,3531.31,Riverside Health,2024-09-20
+CLM-2025-00326,Patricia Jackson,E11.9,488.69,St. Mary's Clinic,2024-12-18
+CLM-2025-00327,Elizabeth Williams,N39.0,4133.68,Memorial Medical Center,2024-01-18
+CLM-2025-00329,,F32.9,3013.74,Wellness Family Practice,2024-11-01
+CLM-2025-00330,Jennifer Williams,I10,2473.65,Advanced Specialists,2024-03-26
+CLM-2025-00332,Michael Jackson,J45.909,1713.91,Advanced Specialists,2024-09-20
+CLM-2025-00333,William Martin,I10,3045.00,Advanced Specialists,2024-04-16
+CLM-2025-00297,Jessica Moore,R50.9,1796.09,St. Mary's Clinic,2024-09-11
+CLM-2025-00337,Patricia Johnson,M79.3,4347.78,Riverside Health,2024-06-07
+CLM-2025-00339,Jennifer Hernandez,N39.0,2762.22,Memorial Medical Center,2024-10-04
+CLM-2025-00340,James Wilson,J45.909,4639.53,Downtown Urgent Care,2024-08-14
+CLM-2025-00341,Jennifer Brown,I10,1556.88,,2024-12-26
+CLM-2025-00343,,Z23,3539.80,Riverside Health,2024-04-05
+CLM-2025-00345,Thomas Williams,G43.909,1941.09,Wellness Family Practice,2024-11-22
+CLM-2025-00346,Robert Martinez,R50.9,1019.70,Wellness Family Practice,2025-05-06
+CLM-2025-00347,David Garcia,K21.9,2826.84,Northside Medical Group,2024-11-27
+CLM-2025-00350,Charles Garcia,F32.9,3701.05,Memorial Medical Center,2024-09-20
+CLM-2025-00351,James Jones,G43.909,4563.96,Riverside Health,2024-04-24
+CLM-2025-00352,Elizabeth Martin,G43.909,3088.17,Wellness Family Practice,2025-01-27
+CLM-2025-00354,Joseph Anderson,J45.909,995.56,Riverside Health,2024-10-14
+CLM-2025-00355,James Gonzalez,Z23,3451.76,City General Hospital,2024-07-16
+CLM-2025-00357,Sarah Brown,N39.0,3495.51,Wellness Family Practice,2024-12-25
+CLM-2025-00358,Jessica Jackson,Z23,2452.97,Downtown Urgent Care,2024-08-15
+CLM-2025-00359,Richard Jackson,I10,1274.71,Memorial Medical Center,2025-01-23
+CLM-2025-00360,Richard Moore,M79.3,3860.91,,2025-07-01
+CLM-2025-00361,Jennifer Taylor,E11.9,1109.45,Memorial Medical Center,2024-03-07
+CLM-2025-00362,Robert Lopez,N39.0,703.90,Northside Medical Group,2024-10-03
+CLM-2025-00363,James Davis,INV101,3329.72,Riverside Health,2024-05-03
+CLM-2025-00364,Jessica Williams,J45.909,2722.32,City General Hospital,2024-07-16
+CLM-2025-00365,Jennifer Smith,M79.3,1530.25,St. Mary's Clinic,2024-01-24
+CLM-2025-00366,Jennifer Garcia,M79.3,-73.81,Wellness Family Practice,2024-11-05
+CLM-2025-00367,Jessica Hernandez,INV624,3491.80,Riverside Health,2024-04-15
+CLM-2025-00368,Barbara Jackson,,2698.83,City General Hospital,2024-10-02
+CLM-2025-00369,Mary Davis,J45.909,4034.32,Riverside Health,2024-12-16
+CLM-2025-00374,Jessica Williams,INV971,2849.32,Advanced Specialists,2024-08-27
+CLM-2025-00375,,G43.909,4033.97,Wellness Family Practice,2024-06-11
+CLM-2025-00376,James Williams,F32.9,1463.48,Memorial Medical Center,2024-12-10
+CLM-2025-00377,,J45.909,1564.96,Riverside Health,2024-05-28
+CLM-2025-00380,Jennifer Taylor,Z23,331.24,Advanced Specialists,2024-02-01
+CLM-2025-00381,Thomas Brown,E11.9,4158.86,St. Mary's Clinic,2024-12-05
+CLM-2025-00382,Charles Martin,G43.909,4502.44,Riverside Health,2024-10-11
+CLM-2025-00383,Michael Davis,M79.3,3364.85,Downtown Urgent Care,2024-10-28
+CLM-2025-00367,David Wilson,J45.909,2644.18,Riverside Health,2024-12-16
+CLM-2025-00385,Thomas Jones,,2548.78,City General Hospital,2024-09-09
+CLM-2025-00387,Michael Lopez,INV612,2262.65,Northside Medical Group,2025-12-19
+CLM-2025-00388,William Williams,J45.909,2738.21,City General Hospital,2024-11-15
+CLM-2025-00389,William Johnson,I10,1022.47,Riverside Health,2024-02-28
+CLM-2025-00390,Sarah Wilson,I10,4649.20,City General Hospital,2024-08-26
+CLM-2025-00391,Thomas Martinez,J45.909,3392.28,Memorial Medical Center,2024-02-23
+CLM-2025-00392,John Martin,N39.0,N/A,Downtown Urgent Care,2024-08-15
+CLM-2025-00394,Elizabeth Taylor,R50.9,4125.65,St. Mary's Clinic,2024-11-06
+CLM-2025-00395,Barbara Taylor,INV917,960.06,City General Hospital,2024-11-05
+CLM-2025-00396,William Taylor,K21.9,1224.11,Downtown Urgent Care,2024-07-12
+CLM-2025-00398,Linda Hernandez,F32.9,1633.04,Wellness Family Practice,2024-03-25
+CLM-2025-00399,David Rodriguez,F32.9,1946.60,Downtown Urgent Care,2024-01-02
+CLM-2025-00400,Michael Jackson,M79.3,N/A,Advanced Specialists,2024-12-24
+CLM-2025-00401,Elizabeth Miller,K21.9,N/A,Wellness Family Practice,2024-10-25
+CLM-2025-00402,Linda Williams,Z23,2462.89,Riverside Health,2024-09-13
+CLM-2025-00391,Patricia Hernandez,E11.9,4037.63,Memorial Medical Center,2024-07-19
+CLM-2025-00405,Jennifer Jackson,K21.9,2819.04,Downtown Urgent Care,2024-08-07
+CLM-2025-00408,Susan Brown,J45.909,2335.89,Memorial Medical Center,2024-05-01
+CLM-2025-00410,David Jones,M79.3,134.14,Memorial Medical Center,2025-11-03
+CLM-2025-00411,David Brown,I10,3082.36,,2024-06-17
+CLM-2025-00413,Jessica Thomas,M79.3,-18.53,Memorial Medical Center,2024-09-02
+CLM-2025-00414,Karen Anderson,G43.909,1190.12,Wellness Family Practice,2024-02-13
+CLM-2025-00417,John Davis,M79.3,46398.95,Memorial Medical Center,2024-12-24
+CLM-2025-00419,,J45.909,4493.71,Wellness Family Practice,2024-02-15
+CLM-2025-00420,Sarah Martin,Z23,923.74,Memorial Medical Center,2025-07-09
+CLM-2025-00401,Karen Moore,J45.909,658.32,Northside Medical Group,2024-03-12
+CLM-2025-00425,Richard Johnson,Z23,4139.29,Downtown Urgent Care,2024-03-11
+CLM-2025-00426,Richard Anderson,Z23,3373.66,City General Hospital,2024-09-10
+CLM-2025-00428,Jessica Garcia,K21.9,2542.90,Memorial Medical Center,2024-06-13
+CLM-2025-00429,John Davis,R50.9,2159.81,City General Hospital,2024-08-01
+CLM-2025-00430,Thomas Thomas,E11.9,188.52,City General Hospital,2024-10-02
+CLM-2025-00431,Thomas Miller,F32.9,3164.72,Downtown Urgent Care,2024-11-15
+CLM-2025-00432,Robert Jackson,M79.3,3408.03,City General Hospital,2024-02-09
+CLM-2025-00433,Sarah Garcia,N39.0,2099.22,Downtown Urgent Care,2024-03-15
+CLM-2025-00434,Susan Lopez,K21.9,3882.25,Riverside Health,2024-03-14
+CLM-2025-00435,Mary Taylor,I10,1926.81,Northside Medical Group,2024-06-26
+CLM-2025-00436,Linda Smith,E11.9,2859.77,St. Mary's Clinic,2024-01-10
+CLM-2025-00437,Mary Johnson,G43.909,3411.63,Downtown Urgent Care,2024-06-25
+CLM-2025-00439,Barbara Miller,G43.909,1442.24,Advanced Specialists,2024-12-02
+CLM-2025-00440,Robert Davis,,1593.16,St. Mary's Clinic,2024-02-07
+CLM-2025-00441,James Taylor,K21.9,2775.59,Advanced Specialists,2025-06-06
+CLM-2025-00442,Jennifer Hernandez,INV229,587.98,Riverside Health,2024-02-06
+CLM-2025-00444,,K21.9,3885.08,Northside Medical Group,2024-06-28
+CLM-2025-00446,David Brown,N39.0,764.11,Wellness Family Practice,2024-09-24
+CLM-2025-00447,,G43.909,2107.91,Advanced Specialists,2024-03-20
+CLM-2025-00448,Jessica Moore,R50.9,1457.78,Northside Medical Group,2024-11-01
+CLM-2025-00449,Susan Garcia,INV401,2302.04,City General Hospital,2024-05-16
+CLM-2025-00450,Joseph Rodriguez,G43.909,2063.70,Memorial Medical Center,2024-09-18
+CLM-2025-00452,Mary Moore,K21.9,886.81,Downtown Urgent Care,2024-08-28
+CLM-2025-00453,Elizabeth Taylor,Z23,275.97,Advanced Specialists,2024-05-17
+CLM-2025-00454,Patricia Thomas,I10,4280.17,Memorial Medical Center,2024-01-19
+CLM-2025-00456,Mary Davis,K21.9,3526.45,Advanced Specialists,2024-12-05
+CLM-2025-00458,,E11.9,4231.07,City General Hospital,2024-06-12
+CLM-2025-00460,James Thomas,M79.3,2911.64,Memorial Medical Center,2024-01-18
+CLM-2025-00461,Joseph Jones,E11.9,2247.57,Memorial Medical Center,2024-02-08
+CLM-2025-00439,Joseph Jones,G43.909,867.95,Northside Medical Group,2024-09-06
+CLM-2025-00465,Jennifer Miller,G43.909,3570.41,Advanced Specialists,2024-03-11
+CLM-2025-00466,Mary Martin,N39.0,414.99,City General Hospital,2024-02-02
+CLM-2025-00467,Joseph Gonzalez,E11.9,3644.93,Advanced Specialists,2024-05-09
+CLM-2025-00468,James Wilson,K21.9,3783.23,St. Mary's Clinic,2024-02-15
+CLM-2025-00469,,I10,2737.43,Northside Medical Group,2024-01-24
+CLM-2025-00470,John Jackson,E11.9,1847.10,St. Mary's Clinic,2024-01-17
+CLM-2025-00473,David Wilson,INV432,2481.48,Memorial Medical Center,2024-07-26
+CLM-2025-00474,Thomas Thomas,I10,2677.73,Downtown Urgent Care,2024-07-02
+CLM-2025-00475,Jessica Lopez,INV532,1952.08,City General Hospital,2024-12-20
+CLM-2025-00477,,Z23,3437.62,City General Hospital,2025-10-27
+CLM-2025-00478,Mary Miller,,387.71,City General Hospital,2024-10-18
+CLM-2025-00481,Joseph Gonzalez,R50.9,3324.31,St. Mary's Clinic,2025-04-10
+CLM-2025-00482,John Gonzalez,M79.3,1292.24,St. Mary's Clinic,2024-09-10
+CLM-2025-00483,Jessica Brown,E11.9,4442.37,Memorial Medical Center,2024-04-11
+CLM-2025-00486,Sarah Garcia,Z23,1470.27,St. Mary's Clinic,2025-02-06
+CLM-2025-00487,Thomas Martinez,INV898,3176.27,St. Mary's Clinic,2024-06-20
+CLM-2025-00489,Jessica Anderson,F32.9,2580.85,Memorial Medical Center,2024-06-20
+CLM-2025-00490,Linda Lopez,K21.9,1269.90,Advanced Specialists,2025-09-19
+CLM-2025-00491,William Thomas,Z23,3351.10,St. Mary's Clinic,2024-04-24
+CLM-2025-00492,Robert Taylor,F32.9,4555.59,St. Mary's Clinic,2025-09-22
+CLM-2025-00494,Elizabeth Thomas,I10,4507.26,Advanced Specialists,2024-04-18
+CLM-2025-00495,William Anderson,N39.0,1755.05,Riverside Health,2024-07-02
+CLM-2025-00496,Richard Martinez,R50.9,1592.55,Advanced Specialists,2024-10-04
+CLM-2025-00498,Robert Brown,M79.3,28195.80,Memorial Medical Center,2024-09-10
+CLM-2025-00499,Michael Smith,F32.9,506.96,Northside Medical Group,2024-10-11
+CLM-2025-00500,John Martinez,M79.3,3840.48,City General Hospital,2024-12-27
+CLM-2025-00501,Charles Martin,I10,3128.05,Downtown Urgent Care,2024-04-12
+CLM-2025-00502,,E11.9,2829.69,Riverside Health,2025-02-24
+CLM-2025-00504,Barbara Rodriguez,J45.909,N/A,Riverside Health,2025-07-18
+CLM-2025-00505,Jessica Lopez,,3301.42,Northside Medical Group,2024-12-27
+CLM-2025-00506,Mary Jackson,Z23,32.90,Memorial Medical Center,2024-10-15
+CLM-2025-00508,David Martin,N39.0,39960.12,Northside Medical Group,2024-11-14
+CLM-2025-00510,Patricia Hernandez,I10,1047.51,Wellness Family Practice,2024-06-19
+CLM-2025-00511,Charles Brown,Z23,3854.14,Memorial Medical Center,2024-03-01
+CLM-2025-00512,James Thomas,M79.3,3269.41,Wellness Family Practice,2024-05-08
+CLM-2025-00513,Thomas Gonzalez,K21.9,2268.60,Riverside Health,2025-09-08
+CLM-2025-00517,Richard Johnson,G43.909,4366.18,Advanced Specialists,2024-07-09
+CLM-2025-00519,John Garcia,M79.3,2644.73,Northside Medical Group,2024-01-03
+CLM-2025-00484,Patricia Thomas,R50.9,2153.23,Advanced Specialists,2024-05-22
+CLM-2025-00525,,N39.0,3372.13,Northside Medical Group,2024-08-16
+CLM-2025-00526,Susan Martin,K21.9,42.59,Northside Medical Group,2024-05-09
+CLM-2025-00527,William Martin,K21.9,2806.00,Northside Medical Group,2024-09-23
+CLM-2025-00528,David Williams,K21.9,3849.14,St. Mary's Clinic,2024-02-12
+CLM-2025-00530,,Z23,4191.13,City General Hospital,2024-11-26
+CLM-2025-00531,Barbara Martinez,INV819,3144.39,City General Hospital,2024-01-22
+CLM-2025-00532,Mary Martin,R50.9,2922.90,Downtown Urgent Care,2024-04-10
+CLM-2025-00502,Robert Moore,Z23,3277.76,St. Mary's Clinic,2024-07-03
+CLM-2025-00534,Mary Gonzalez,G43.909,3500.97,Advanced Specialists,2024-02-05
+CLM-2025-00535,Joseph Gonzalez,J45.909,1771.95,Riverside Health,2024-06-03
+CLM-2025-00536,Mary Brown,Z23,930.84,St. Mary's Clinic,2024-08-23
+CLM-2025-00537,William Moore,INV291,1477.21,Riverside Health,2024-04-15
+CLM-2025-00538,Barbara Moore,M79.3,768.06,Northside Medical Group,2024-08-20
+CLM-2025-00539,Jessica Williams,K21.9,4335.36,Riverside Health,2024-04-25
+CLM-2025-00542,James Davis,INV661,414.73,Downtown Urgent Care,2024-09-05
+CLM-2025-00543,Michael Anderson,M79.3,1442.47,St. Mary's Clinic,2024-07-08
+CLM-2025-00544,Jessica Brown,R50.9,1292.14,City General Hospital,2025-11-11
+CLM-2025-00546,Thomas Martinez,G43.909,1724.39,Riverside Health,2024-05-01
+CLM-2025-00547,Susan Martin,M79.3,22.05,Riverside Health,2024-12-09
+CLM-2025-00549,Elizabeth Jackson,G43.909,231.66,Northside Medical Group,2024-07-23
+CLM-2025-00550,Michael Anderson,R50.9,4131.89,Downtown Urgent Care,2024-02-08
+CLM-2025-00551,Richard Lopez,M79.3,4046.48,Memorial Medical Center,2024-11-15
+CLM-2025-00552,Linda Jackson,K21.9,4250.59,Northside Medical Group,2024-09-04
+CLM-2025-00553,Sarah Martinez,K21.9,431.15,Advanced Specialists,2024-08-26
+CLM-2025-00554,Joseph Jackson,M79.3,1615.46,Advanced Specialists,2024-08-01
+CLM-2025-00555,Joseph Thomas,F32.9,3993.06,Riverside Health,2024-09-10
+CLM-2025-00556,Sarah Rodriguez,G43.909,3797.94,St. Mary's Clinic,2025-11-18
+CLM-2025-00557,William Jones,N39.0,1463.10,Northside Medical Group,2025-07-01
+CLM-2025-00561,Karen Miller,R50.9,3887.30,Memorial Medical Center,2024-08-15
+CLM-2025-00562,Linda Anderson,J45.909,499.74,Advanced Specialists,2025-08-11
+CLM-2025-00563,Linda Miller,N39.0,3092.67,Northside Medical Group,2024-03-05
+CLM-2025-00566,Susan Davis,Z23,4100.23,Wellness Family Practice,2025-05-26
+CLM-2025-00567,Karen Miller,Z23,2493.92,Downtown Urgent Care,2024-08-05
+CLM-2025-00568,Joseph Thomas,J45.909,878.38,Northside Medical Group,2024-04-05
+CLM-2025-00569,John Wilson,M79.3,1298.42,Downtown Urgent Care,2024-04-18
+CLM-2025-00570,William Thomas,K21.9,3195.06,Downtown Urgent Care,2025-12-17
+CLM-2025-00571,,M79.3,2276.35,Memorial Medical Center,2024-11-15
+CLM-2025-00572,William Jones,J45.909,3564.91,Downtown Urgent Care,2024-11-15
+CLM-2025-00573,Karen Moore,G43.909,1631.72,Advanced Specialists,2024-01-17
+CLM-2025-00552,Patricia Lopez,G43.909,1519.32,Downtown Urgent Care,2024-01-24
+CLM-2025-00575,,K21.9,4242.94,Northside Medical Group,2024-01-18
+CLM-2025-00577,Michael Martinez,K21.9,3444.80,St. Mary's Clinic,2024-11-27
+CLM-2025-00579,Jessica Brown,,511.53,St. Mary's Clinic,2024-10-18
+CLM-2025-00580,Linda Brown,M79.3,1444.26,Riverside Health,2024-07-25
+CLM-2025-00582,William Miller,E11.9,2851.43,City General Hospital,2024-02-21
+CLM-2025-00583,Linda Hernandez,,2775.64,Advanced Specialists,2024-01-15
+CLM-2025-00585,Mary Davis,,3716.02,Advanced Specialists,2024-04-16
+CLM-2025-00586,James Williams,Z23,1186.76,Downtown Urgent Care,2024-03-04
+CLM-2025-00587,James Garcia,R50.9,2760.72,Downtown Urgent Care,2025-08-22
+CLM-2025-00588,Charles Jones,INV668,173.93,Wellness Family Practice,2025-09-05
+CLM-2025-00589,Robert Wilson,I10,4148.71,City General Hospital,2024-03-14
+CLM-2025-00591,Barbara Moore,,1379.78,St. Mary's Clinic,2024-09-19
+CLM-2025-00592,Richard Brown,R50.9,3255.58,City General Hospital,2025-07-04
+CLM-2025-00593,David Miller,G43.909,2756.78,Downtown Urgent Care,2024-01-01
+CLM-2025-00595,Patricia Wilson,INV211,1120.17,Advanced Specialists,2024-03-14
+CLM-2025-00596,Patricia Anderson,G43.909,1085.93,City General Hospital,2024-01-04
+CLM-2025-00599,Michael Wilson,M79.3,3394.58,Riverside Health,2024-05-21
+CLM-2025-00600,Richard Miller,K21.9,N/A,Northside Medical Group,2024-12-11
+CLM-2025-00601,David Moore,Z23,1645.69,Wellness Family Practice,2024-01-12
+CLM-2025-00605,Barbara Thomas,J45.909,4202.87,Northside Medical Group,2025-12-18
+CLM-2025-00606,Mary Martin,F32.9,3687.56,Riverside Health,2024-09-13
+CLM-2025-00608,David Jones,R50.9,140.30,Northside Medical Group,2024-11-07
+CLM-2025-00609,Karen Jackson,N39.0,3294.69,St. Mary's Clinic,2024-03-21
+CLM-2025-00610,James Moore,F32.9,601.96,Advanced Specialists,2024-09-02
+CLM-2025-00611,,I10,4404.47,St. Mary's Clinic,2024-09-12
+CLM-2025-00613,Charles Williams,E11.9,3471.07,Downtown Urgent Care,2025-04-21
+CLM-2025-00614,Linda Brown,,4462.32,St. Mary's Clinic,2024-12-20
+CLM-2025-00615,Elizabeth Gonzalez,N39.0,1191.08,Memorial Medical Center,2024-09-06
+CLM-2025-00617,John Garcia,,2741.19,Memorial Medical Center,2024-08-12
+CLM-2025-00618,Elizabeth Gonzalez,I10,2991.19,Memorial Medical Center,2024-08-08
+CLM-2025-00622,Jennifer Taylor,G43.909,529.41,Riverside Health,2024-07-11
+CLM-2025-00624,Sarah Miller,G43.909,4514.91,Downtown Urgent Care,2024-02-16
+CLM-2025-00626,Patricia Johnson,J45.909,3174.46,City General Hospital,2024-08-28
+CLM-2025-00627,Richard Lopez,E11.9,588.20,,2024-04-09
+CLM-2025-00628,Karen Martinez,,2918.47,Northside Medical Group,2024-10-10
+CLM-2025-00631,William Hernandez,E11.9,N/A,City General Hospital,2024-11-28
+CLM-2025-00632,Michael Moore,F32.9,1156.08,St. Mary's Clinic,2024-05-24
+CLM-2025-00633,Linda Johnson,INV816,2644.11,Advanced Specialists,2024-07-08
+CLM-2025-00634,Elizabeth Wilson,R50.9,1791.43,Riverside Health,2024-04-03
+CLM-2025-00636,David Taylor,Z23,2216.43,,2025-08-12
+CLM-2025-00637,William Martin,K21.9,4446.24,Advanced Specialists,2024-04-02
+CLM-2025-00638,Patricia Moore,R50.9,262.80,St. Mary's Clinic,2024-05-23
+CLM-2025-00640,John Brown,F32.9,3316.65,Riverside Health,2024-06-24
+CLM-2025-00641,Susan Williams,I10,1054.28,Downtown Urgent Care,2024-09-05
+CLM-2025-00643,Jessica Jackson,N39.0,2096.19,Wellness Family Practice,2024-09-24
+CLM-2025-00611,Richard Miller,F32.9,2911.35,Riverside Health,2024-02-21
+CLM-2025-00648,Joseph Johnson,E11.9,527.98,City General Hospital,2024-03-26
+CLM-2025-00652,Charles Hernandez,INV683,603.73,Memorial Medical Center,2024-10-07
+CLM-2025-00653,Jessica Martin,J45.909,-144.22,Riverside Health,2024-03-28
+CLM-2025-00654,James Taylor,INV269,1173.60,Wellness Family Practice,2024-11-19
+CLM-2025-00655,David Miller,INV997,2135.03,Wellness Family Practice,2025-03-28
+CLM-2025-00656,Joseph Lopez,E11.9,3431.03,Advanced Specialists,2024-06-03
+CLM-2025-00658,Elizabeth Thomas,R50.9,1573.50,St. Mary's Clinic,2024-10-16
+CLM-2025-00660,,R50.9,2409.65,Northside Medical Group,2024-12-20
+CLM-2025-00661,Elizabeth Jackson,G43.909,727.30,Wellness Family Practice,2024-08-26
+CLM-2025-00662,Richard Rodriguez,,543.84,Northside Medical Group,2024-11-19
+CLM-2025-00663,Jennifer Hernandez,Z23,3860.13,Memorial Medical Center,2024-03-22
+CLM-2025-00665,Jennifer Davis,R50.9,3991.12,Memorial Medical Center,2024-08-09
+CLM-2025-00666,Elizabeth Jones,Z23,668.79,St. Mary's Clinic,2024-12-20
+CLM-2025-00668,Patricia Jackson,M79.3,3286.01,Wellness Family Practice,2024-11-19
+CLM-2025-00669,Richard Taylor,M79.3,3532.47,Northside Medical Group,2024-11-26
+CLM-2025-00671,Susan Gonzalez,G43.909,N/A,City General Hospital,2024-12-17
+CLM-2025-00672,Thomas Jones,J45.909,1753.13,St. Mary's Clinic,2024-11-06
+CLM-2025-00674,Jennifer Taylor,R50.9,93.81,Riverside Health,2024-11-07
+CLM-2025-00675,Elizabeth Anderson,Z23,4046.28,St. Mary's Clinic,2024-11-28
+CLM-2025-00679,Linda Gonzalez,J45.909,2615.90,Memorial Medical Center,2024-08-08
+CLM-2025-00680,Joseph Wilson,G43.909,4294.22,Riverside Health,2024-04-24
+CLM-2025-00683,Barbara Hernandez,G43.909,530.71,City General Hospital,2024-07-08
+CLM-2025-00686,Michael Moore,F32.9,1647.21,Downtown Urgent Care,2024-11-11
+CLM-2025-00687,Linda Hernandez,E11.9,3711.57,Memorial Medical Center,2024-04-04
+CLM-2025-00689,William Wilson,J45.909,2137.82,Northside Medical Group,2024-05-03
+CLM-2025-00690,Karen Smith,R50.9,2206.22,City General Hospital,2024-05-15
+CLM-2025-00691,Jennifer Rodriguez,N39.0,-31.61,Wellness Family Practice,2024-12-25
+CLM-2025-00692,David Hernandez,M79.3,3231.97,Advanced Specialists,2024-02-05
+CLM-2025-00693,Sarah Johnson,N39.0,872.38,Wellness Family Practice,2025-04-03
+CLM-2025-00694,William Jackson,N39.0,4102.74,Northside Medical Group,2024-07-10
+CLM-2025-00695,Charles Hernandez,,692.27,Riverside Health,2024-05-28
+CLM-2025-00696,Joseph Jones,R50.9,3200.42,St. Mary's Clinic,2024-01-23
+CLM-2025-00699,David Martin,E11.9,3492.30,Memorial Medical Center,2024-01-09
+CLM-2025-00700,Michael Jackson,K21.9,2623.76,City General Hospital,2024-01-05
+CLM-2025-00703,William Brown,M79.3,2313.97,City General Hospital,2024-10-04
+CLM-2025-00704,David Rodriguez,M79.3,2553.34,Wellness Family Practice,2024-11-13
+CLM-2025-00705,Robert Moore,F32.9,421.58,Wellness Family Practice,2024-04-01
+CLM-2025-00707,,K21.9,853.74,St. Mary's Clinic,2024-08-06
+CLM-2025-00709,Mary Johnson,,4153.27,Wellness Family Practice,2024-01-04
+CLM-2025-00710,,N39.0,2875.81,Wellness Family Practice,2024-09-24
+CLM-2025-00711,Elizabeth Johnson,M79.3,1601.59,Advanced Specialists,2024-05-21
+CLM-2025-00712,Thomas Davis,N39.0,N/A,Advanced Specialists,2024-11-15
+CLM-2025-00714,Robert Smith,Z23,935.00,Memorial Medical Center,2024-04-25
+CLM-2025-00715,Sarah Taylor,E11.9,4607.15,St. Mary's Clinic,2024-04-12
+CLM-2025-00716,,J45.909,2131.91,Downtown Urgent Care,2025-09-23
+CLM-2025-00717,Karen Lopez,,847.37,City General Hospital,2024-01-15
+CLM-2025-00719,Jennifer Hernandez,E11.9,1753.97,Advanced Specialists,2024-08-23
+CLM-2025-00720,Karen Martin,I10,50864.02,Memorial Medical Center,2025-10-24
+CLM-2025-00726,Mary Wilson,K21.9,1424.84,Northside Medical Group,2024-12-06
+CLM-2025-00727,,G43.909,4464.14,City General Hospital,2024-09-11
+CLM-2025-00730,Charles Martinez,Z23,2466.67,St. Mary's Clinic,2024-06-07
+CLM-2025-00732,Patricia Martinez,I10,3162.84,St. Mary's Clinic,2024-07-23
+CLM-2025-00733,Thomas Rodriguez,G43.909,2901.33,City General Hospital,2024-03-13
+CLM-2025-00735,Linda Brown,Z23,3312.05,Downtown Urgent Care,2024-02-14
+CLM-2025-00736,David Garcia,J45.909,3391.94,St. Mary's Clinic,2024-03-22
+CLM-2025-00738,Thomas Garcia,N39.0,431.25,Downtown Urgent Care,2024-07-24
+CLM-2025-00739,Karen Williams,INV408,478.16,Downtown Urgent Care,2024-09-06
+CLM-2025-00740,Elizabeth Anderson,INV835,4568.52,Wellness Family Practice,2024-04-23
+CLM-2025-00741,Joseph Miller,INV312,2312.31,Advanced Specialists,2024-11-08
+CLM-2025-00742,,G43.909,4143.03,Downtown Urgent Care,2024-08-21
+CLM-2025-00744,Michael Thomas,Z23,617.51,,2024-12-17
+CLM-2025-00746,Jessica Wilson,INV966,3706.09,City General Hospital,2024-03-13
+CLM-2025-00747,,N39.0,1429.85,Memorial Medical Center,2025-06-06
+CLM-2025-00749,,Z23,1938.60,Riverside Health,2024-02-12
+CLM-2025-00750,Sarah Smith,M79.3,2460.88,Riverside Health,2024-06-25
+CLM-2025-00751,Sarah Williams,J45.909,3642.78,Memorial Medical Center,2024-05-02
+CLM-2025-00752,Robert Thomas,R50.9,4118.55,Advanced Specialists,2025-06-09
+CLM-2025-00753,Karen Thomas,Z23,2285.53,Downtown Urgent Care,2024-01-23
+CLM-2025-00756,,R50.9,2794.16,St. Mary's Clinic,2024-10-22
+CLM-2025-00757,Elizabeth Thomas,J45.909,2628.98,,2025-02-18
+CLM-2025-00758,David Jones,N39.0,3819.69,St. Mary's Clinic,2025-05-28
+CLM-2025-00759,James Martinez,M79.3,4455.15,Advanced Specialists,2024-07-05
+CLM-2025-00761,Mary Martin,F32.9,2228.93,Wellness Family Practice,2024-03-13
+CLM-2025-00762,Thomas Martinez,G43.909,3852.25,Riverside Health,2024-08-22
+CLM-2025-00730,Patricia Smith,M79.3,1861.90,Memorial Medical Center,2024-11-18
+CLM-2025-00764,Elizabeth Anderson,INV129,4591.14,Advanced Specialists,2024-03-21
+CLM-2025-00765,Linda Moore,M79.3,2415.37,City General Hospital,2024-04-15
+CLM-2025-00766,John Hernandez,Z23,N/A,Wellness Family Practice,2024-01-19
+CLM-2025-00767,Jennifer Smith,R50.9,4383.18,,2024-12-02
+CLM-2025-00768,Mary Davis,N39.0,2140.82,Advanced Specialists,2024-07-19
+CLM-2025-00770,Susan Anderson,I10,2406.93,St. Mary's Clinic,2024-01-10
+CLM-2025-00771,Linda Jackson,M79.3,3825.39,Advanced Specialists,2024-09-18
+CLM-2025-00772,Elizabeth Davis,Z23,4058.78,Riverside Health,2024-07-04
+CLM-2025-00773,Karen Hernandez,Z23,2052.36,Memorial Medical Center,2024-10-23
+CLM-2025-00774,James Rodriguez,M79.3,3258.54,Wellness Family Practice,2024-12-02
+CLM-2025-00775,Robert Rodriguez,J45.909,1884.81,Wellness Family Practice,2024-09-10
+CLM-2025-00777,,R50.9,418.10,Northside Medical Group,2024-12-03
+CLM-2025-00778,,K21.9,3607.80,Advanced Specialists,2024-02-28
+CLM-2025-00780,John Smith,Z23,3811.92,Northside Medical Group,2024-01-04
+CLM-2025-00782,Robert Hernandez,M79.3,N/A,Wellness Family Practice,2024-12-27
+CLM-2025-00783,Robert Wilson,R50.9,N/A,St. Mary's Clinic,2024-01-05
+CLM-2025-00784,Michael Gonzalez,INV885,4234.25,City General Hospital,2024-10-22
+CLM-2025-00785,David Martin,G43.909,3410.92,Northside Medical Group,2024-04-08
+CLM-2025-00788,Patricia Rodriguez,N39.0,3945.12,Downtown Urgent Care,2024-09-13
+CLM-2025-00789,Barbara Taylor,N39.0,4471.37,Downtown Urgent Care,2024-07-26
+CLM-2025-00790,Joseph Hernandez,N39.0,183.39,,2024-06-04
+CLM-2025-00779,Karen Miller,E11.9,2619.60,Wellness Family Practice,2024-11-25
+CLM-2025-00793,David Garcia,Z23,828.79,Memorial Medical Center,2024-03-14
+CLM-2025-00794,Mary Martin,INV688,1416.89,City General Hospital,2024-03-25
+CLM-2025-00795,Susan Miller,INV230,4623.99,Downtown Urgent Care,2024-06-18
+CLM-2025-00798,Michael Martinez,J45.909,42515.33,Memorial Medical Center,2024-02-02
+CLM-2025-00799,Robert Miller,G43.909,4255.59,Downtown Urgent Care,2025-03-04
+CLM-2025-00801,Joseph Wilson,K21.9,3086.07,,2024-06-13
+CLM-2025-00802,David Anderson,K21.9,3183.95,St. Mary's Clinic,2024-09-13
+CLM-2025-00803,,I10,3710.73,Memorial Medical Center,2024-11-01
+CLM-2025-00805,William Jackson,J45.909,4520.20,Downtown Urgent Care,2024-08-26
+CLM-2025-00806,William Smith,I10,2251.02,City General Hospital,2024-01-08
+CLM-2025-00807,Jessica Smith,J45.909,4061.04,St. Mary's Clinic,2025-07-14
+CLM-2025-00808,Thomas Martin,G43.909,4525.90,Riverside Health,2024-11-12
+CLM-2025-00809,Jennifer Brown,K21.9,-135.29,Northside Medical Group,2024-04-04
+CLM-2025-00810,Richard Williams,F32.9,3603.17,Northside Medical Group,2024-04-08
+CLM-2025-00811,Jennifer Anderson,INV798,2305.63,Riverside Health,2024-01-10
+CLM-2025-00812,Susan Brown,INV735,4006.86,Downtown Urgent Care,2025-07-01
+CLM-2025-00813,Susan Martin,I10,1084.08,Northside Medical Group,2024-04-11
+CLM-2025-00814,Thomas Martinez,I10,3149.10,Memorial Medical Center,2024-01-17
+CLM-2025-00816,Michael Wilson,K21.9,3006.12,Advanced Specialists,2024-03-20
+CLM-2025-00818,Karen Jackson,F32.9,-63.54,Wellness Family Practice,2024-10-17
+CLM-2025-00819,Susan Brown,M79.3,1432.55,City General Hospital,2025-02-21
+CLM-2025-00820,William Lopez,INV697,2227.02,Northside Medical Group,2024-01-24
+CLM-2025-00821,Sarah Johnson,INV233,1435.60,Memorial Medical Center,2024-10-16
+CLM-2025-00822,,G43.909,1835.62,St. Mary's Clinic,2024-05-10
+CLM-2025-00823,Patricia Wilson,I10,4582.44,Wellness Family Practice,2024-08-01
+CLM-2025-00824,Jennifer Hernandez,Z23,1295.00,Wellness Family Practice,2024-08-13
+CLM-2025-00825,James Anderson,R50.9,800.97,City General Hospital,2024-06-18
+CLM-2025-00826,Thomas Jones,E11.9,3357.71,Wellness Family Practice,2024-08-06
+CLM-2025-00829,Mary Brown,Z23,4138.50,Riverside Health,2024-06-26
+CLM-2025-00830,Elizabeth Thomas,I10,50968.08,Downtown Urgent Care,2024-05-24
+CLM-2025-00831,Thomas Rodriguez,R50.9,2835.30,Advanced Specialists,2024-04-22
+CLM-2025-00833,Elizabeth Miller,N39.0,4063.57,City General Hospital,2024-09-27
+CLM-2025-00834,John Moore,K21.9,509.10,Advanced Specialists,2024-10-21
+CLM-2025-00800,James Moore,Z23,3538.97,Downtown Urgent Care,2024-08-13
+CLM-2025-00836,Jessica Taylor,K21.9,650.22,Riverside Health,2024-05-07
+CLM-2025-00837,James Moore,,1488.69,Downtown Urgent Care,2024-03-18
+CLM-2025-00809,Karen Gonzalez,I10,1261.84,Downtown Urgent Care,2024-04-25
+CLM-2025-00841,Sarah Garcia,E11.9,N/A,St. Mary's Clinic,2024-10-23
+CLM-2025-00844,Robert Martinez,G43.909,3902.17,Wellness Family Practice,2024-12-16
+CLM-2025-00845,,I10,544.54,Wellness Family Practice,2024-10-02
+CLM-2025-00848,Richard Jackson,G43.909,1700.85,Downtown Urgent Care,2024-03-13
+CLM-2025-00850,Joseph Williams,R50.9,3563.19,Downtown Urgent Care,2024-04-18
+CLM-2025-00851,John Garcia,N39.0,2670.26,City General Hospital,2025-09-18
+CLM-2025-00852,Michael Jones,N39.0,2021.64,St. Mary's Clinic,2024-10-16
+CLM-2025-00853,Michael Martin,J45.909,580.65,Advanced Specialists,2024-05-23
+CLM-2025-00854,Elizabeth Wilson,Z23,1797.11,Memorial Medical Center,2024-07-26
+CLM-2025-00855,Patricia Martin,,3203.18,City General Hospital,2024-08-14
+CLM-2025-00856,Karen Wilson,F32.9,1476.05,Downtown Urgent Care,2024-07-03
+CLM-2025-00857,Jessica Davis,INV322,1333.62,Advanced Specialists,2024-07-02
+CLM-2025-00858,,N39.0,4457.19,Memorial Medical Center,2024-01-23
+CLM-2025-00859,Linda Jackson,N39.0,3664.73,Memorial Medical Center,2025-06-13
+CLM-2025-00860,Michael Garcia,INV327,3150.72,City General Hospital,2024-09-18
+CLM-2025-00861,David Rodriguez,E11.9,N/A,Advanced Specialists,2024-10-15
+CLM-2025-00863,Karen Jackson,M79.3,1370.31,Riverside Health,2025-07-18
+CLM-2025-00865,William Anderson,Z23,1244.71,St. Mary's Clinic,2024-02-16
+CLM-2025-00867,Mary Wilson,K21.9,237.33,City General Hospital,2024-11-21
+CLM-2025-00869,Jessica Hernandez,R50.9,2844.01,Downtown Urgent Care,2024-03-25
+CLM-2025-00871,Thomas Jackson,INV481,1455.27,Advanced Specialists,2024-09-25
+CLM-2025-00872,Sarah Davis,N39.0,1198.61,Downtown Urgent Care,2024-11-15
+CLM-2025-00873,Jessica Taylor,INV287,3064.34,Advanced Specialists,2024-04-15
+CLM-2025-00874,Robert Martin,Z23,3553.33,Wellness Family Practice,2024-10-07
+CLM-2025-00875,Linda Anderson,F32.9,1965.61,Memorial Medical Center,2025-01-03
+CLM-2025-00877,Richard Wilson,M79.3,2288.27,Wellness Family Practice,2024-05-13
+CLM-2025-00882,Charles Williams,E11.9,-77.92,Northside Medical Group,2024-09-11
+CLM-2025-00883,Charles Wilson,F32.9,3358.67,Memorial Medical Center,2025-09-23
+CLM-2025-00884,Richard Gonzalez,G43.909,761.68,Advanced Specialists,2024-10-14
+CLM-2025-00885,Linda Martin,N39.0,1784.23,Advanced Specialists,2024-10-28
+CLM-2025-00887,Robert Miller,M79.3,3289.33,Downtown Urgent Care,2024-11-22
+CLM-2025-00889,Linda Davis,J45.909,1244.74,Riverside Health,2024-11-20
+CLM-2025-00890,Sarah Davis,INV319,2383.77,Advanced Specialists,2024-02-14
+CLM-2025-00891,Richard Martin,N39.0,3760.41,Wellness Family Practice,2024-01-01
+CLM-2025-00892,Thomas Rodriguez,M79.3,3929.28,Advanced Specialists,2024-11-27
+CLM-2025-00895,David Lopez,G43.909,479.65,St. Mary's Clinic,2024-05-23
+CLM-2025-00896,Jessica Martinez,I10,1732.26,Downtown Urgent Care,2024-07-04
+CLM-2025-00897,Sarah Davis,J45.909,4076.38,Northside Medical Group,2024-03-12
+CLM-2025-00898,,J45.909,4328.22,Wellness Family Practice,2024-03-18
+CLM-2025-00888,Mary Gonzalez,I10,3851.19,Wellness Family Practice,2024-07-25
+CLM-2025-00904,,R50.9,3766.22,St. Mary's Clinic,2024-12-27
+CLM-2025-00906,Joseph Jackson,F32.9,2830.39,Downtown Urgent Care,2024-12-16
+CLM-2025-00908,Susan Brown,G43.909,1754.22,Northside Medical Group,2024-04-08
+CLM-2025-00909,James Gonzalez,E11.9,2128.47,Wellness Family Practice,2024-04-16
+CLM-2025-00910,David Anderson,E11.9,3804.01,Riverside Health,2024-07-26
+CLM-2025-00911,William Taylor,I10,2317.84,Northside Medical Group,2024-04-25
+CLM-2025-00912,Barbara Wilson,G43.909,2309.05,City General Hospital,2024-03-05
+CLM-2025-00913,Patricia Johnson,N39.0,1151.37,Memorial Medical Center,2024-07-05
+CLM-2025-00914,Patricia Thomas,J45.909,3388.47,Memorial Medical Center,2024-08-14
+CLM-2025-00915,Thomas Lopez,G43.909,56667.39,Northside Medical Group,2024-11-21
+CLM-2025-00917,,N39.0,2051.71,Advanced Specialists,2024-01-10
+CLM-2025-00918,Elizabeth Gonzalez,K21.9,3101.03,St. Mary's Clinic,2024-04-09
+CLM-2025-00919,Karen Lopez,I10,923.23,Wellness Family Practice,2024-07-01
+CLM-2025-00920,Michael Gonzalez,K21.9,610.24,Northside Medical Group,2024-10-03
+CLM-2025-00921,Barbara Moore,R50.9,-78.26,Memorial Medical Center,2024-09-25
+CLM-2025-00923,Joseph Rodriguez,INV128,2890.82,City General Hospital,2024-06-04
+CLM-2025-00925,Jennifer Lopez,R50.9,2046.05,Advanced Specialists,2024-12-25
+CLM-2025-00926,Sarah Miller,M79.3,4044.52,Riverside Health,2024-03-14
+CLM-2025-00927,Sarah Williams,,2540.64,Advanced Specialists,2024-01-12
+CLM-2025-00930,David Rodriguez,E11.9,4170.12,Advanced Specialists,2024-01-26
+CLM-2025-00931,Linda Johnson,F32.9,N/A,Memorial Medical Center,2024-03-01
+CLM-2025-00936,Richard Martinez,K21.9,1655.27,Wellness Family Practice,2024-04-18
+CLM-2025-00941,Karen Moore,R50.9,964.59,Advanced Specialists,2024-08-09
+CLM-2025-00943,Sarah Taylor,K21.9,4294.99,Northside Medical Group,2024-09-27
+CLM-2025-00944,Patricia Gonzalez,J45.909,1662.99,Memorial Medical Center,2024-04-15
+CLM-2025-00946,Richard Smith,INV406,3306.37,Memorial Medical Center,2024-05-01
+CLM-2025-00947,Michael Hernandez,M79.3,2080.22,Memorial Medical Center,2024-09-09
+CLM-2025-00948,Michael Hernandez,INV982,1508.25,Memorial Medical Center,2024-03-20
+CLM-2025-00951,,I10,318.93,Riverside Health,2024-12-16
+CLM-2025-00952,John Jones,INV532,4401.49,City General Hospital,2024-08-08
+CLM-2025-00954,Elizabeth Gonzalez,G43.909,4125.33,Downtown Urgent Care,2024-11-01
+CLM-2025-00955,Joseph Miller,I10,4279.67,Wellness Family Practice,2024-03-21
+CLM-2025-00956,Thomas Moore,E11.9,1298.78,St. Mary's Clinic,2024-08-28
+CLM-2025-00958,James Gonzalez,K21.9,3271.33,Downtown Urgent Care,2024-02-23
+CLM-2025-00961,Mary Lopez,,1472.94,Wellness Family Practice,2024-03-27
+CLM-2025-00963,David Johnson,INV117,2766.47,Downtown Urgent Care,2024-05-24
+CLM-2025-00964,Richard Martin,M79.3,1472.74,Wellness Family Practice,2024-05-07
+CLM-2025-00966,Karen Martin,INV719,4459.53,St. Mary's Clinic,2024-09-05
+CLM-2025-00967,Patricia Martin,N39.0,3820.04,Wellness Family Practice,2024-02-14
+CLM-2025-00968,,F32.9,4515.38,Northside Medical Group,2024-09-20
+CLM-2025-00970,,M79.3,789.46,Riverside Health,2024-10-11
+CLM-2025-00971,Jessica Davis,Z23,3430.54,Riverside Health,2024-06-03
+CLM-2025-00973,Susan Brown,J45.909,1086.51,Northside Medical Group,2025-06-12
+CLM-2025-00974,Robert Rodriguez,M79.3,1385.75,Northside Medical Group,2024-12-17
+CLM-2025-00976,Joseph Johnson,E11.9,1437.89,St. Mary's Clinic,2024-08-02
+CLM-2025-00977,Robert Martin,K21.9,2695.85,Advanced Specialists,2024-05-23
+CLM-2025-00978,Charles Jones,INV304,220.85,Northside Medical Group,2024-03-15
+CLM-2025-00979,Jennifer Rodriguez,N39.0,4318.04,City General Hospital,2024-12-17
+CLM-2025-00980,Thomas Gonzalez,E11.9,358.39,Northside Medical Group,2024-02-20
+CLM-2025-00983,Thomas Moore,E11.9,3972.03,Wellness Family Practice,2024-05-02
+CLM-2025-00985,,F32.9,1868.76,St. Mary's Clinic,2024-09-20
+CLM-2025-00986,Linda Lopez,Z23,1471.47,Memorial Medical Center,2024-07-01
+CLM-2025-00988,John Davis,F32.9,1990.55,Northside Medical Group,2024-05-20
+CLM-2025-00989,,G43.909,656.13,Downtown Urgent Care,2024-01-22
+CLM-2025-00990,John Brown,G43.909,2711.51,Riverside Health,2024-12-05
+CLM-2025-00991,William Moore,Z23,2284.81,Wellness Family Practice,2024-06-06
+CLM-2025-00992,Susan Thomas,M79.3,3468.99,St. Mary's Clinic,2024-11-18
+CLM-2025-00993,Sarah Martin,INV988,1748.97,Wellness Family Practice,2024-08-15
+CLM-2025-00994,Elizabeth Taylor,N39.0,529.89,St. Mary's Clinic,2024-04-24
+CLM-2025-00997,Elizabeth Rodriguez,G43.909,4256.82,Downtown Urgent Care,2024-07-12
+CLM-2025-00998,Susan Martin,G43.909,2095.24,Northside Medical Group,2024-06-05
+CLM-2025-00999,Jessica Taylor,,1649.85,St. Mary's Clinic,2024-03-20
+CLM-2025-01000,James Hernandez,I10,3646.61,Wellness Family Practice,2024-10-08

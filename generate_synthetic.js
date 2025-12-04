@@ -8,9 +8,9 @@ const providers = ['Provider A', 'Provider B', 'Provider C', 'Hospital Alpha', '
 let lines = ['claimId,patientName,diagnosisCode,amount,provider,date'];
 
 for (let i = 1; i <= 3000; i++) {
-  const claimId = `CLM${(10000 + i).toString()}`;
+  let claimId = `CLM${(10000 + i).toString()}`;
   const r = Math.floor(Math.random() * 100) + 1;
-  
+
   let patientName, diagnosisCode, amount, provider, date;
   provider = providers[Math.floor(Math.random() * providers.length)];
   const month = Math.floor(Math.random() * 12) + 1;
@@ -37,15 +37,43 @@ for (let i = 1; i <= 3000; i++) {
     patientName = `Patient${i}`;
     diagnosisCode = validICDCodes[Math.floor(Math.random() * validICDCodes.length)];
     amount = Math.floor(Math.random() * 500) - 250;
+  } else if (r <= 96) {
+    // 1% Future Date (Business Rule Anomaly)
+    patientName = `Patient${i}`;
+    diagnosisCode = validICDCodes[Math.floor(Math.random() * validICDCodes.length)];
+    amount = Math.floor(Math.random() * 5900) + 100;
+    date = '2026-05-01'; // Future date
+  } else if (r <= 97) {
+    // 1% Non-numeric Amount (Schema Error)
+    patientName = `Patient${i}`;
+    diagnosisCode = validICDCodes[Math.floor(Math.random() * validICDCodes.length)];
+    amount = 'INVALID_AMT';
+  } else if (r <= 98) {
+    // 1% Weekend Date (Business Rule Anomaly)
+    patientName = `Patient${i}`;
+    diagnosisCode = validICDCodes[Math.floor(Math.random() * validICDCodes.length)];
+    amount = Math.floor(Math.random() * 5900) + 100;
+    date = '2025-06-07'; // Saturday
   } else {
-    // 5% missing diagnosisCode
+    // 2% missing diagnosisCode
     patientName = `Patient${i}`;
     diagnosisCode = '';
     amount = Math.floor(Math.random() * 5900) + 100;
   }
 
+  // 2% explicit duplicates (reuse previous claimId)
+  if (i > 50 && r > 98) {
+    // reuse a recent claimId to create a duplicate
+    const prevIndex = i - (Math.floor(Math.random() * 20) + 1);
+    claimId = `CLM${(10000 + prevIndex).toString()}`;
+    // keep other fields similar or identical
+    patientName = `Patient${prevIndex}`;
+    diagnosisCode = validICDCodes[Math.floor(Math.random() * validICDCodes.length)];
+    amount = Math.floor(Math.random() * 5900) + 100;
+  }
+
   lines.push(`${claimId},${patientName},${diagnosisCode},${amount},${provider},${date}`);
-  
+
   if (i % 500 === 0) {
     console.log(`Generated ${i} rows...`);
   }
