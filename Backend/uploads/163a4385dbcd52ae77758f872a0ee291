@@ -1,0 +1,9 @@
+claimId,patientName,diagnosisCode,amount,provider,date
+# This file intentionally contains many cross-file duplicates with sample1.csv and sample3.csv
+CLM2001,John Doe,E11,120.00,Provider A,2025-10-01
+CLM2002,Jane Roe,I10,0,Provider B,2025-10-02
+CLM2007,David Park,E11,100.00,Provider G,2025-10-03
+CLM4001,Sam Hill,E11,100.00,Provider A,2025-10-04
+CLM4005,Raj Patel,J45,150.00,Provider E,2025-10-05
+CLM5501,Mark Stevens,E11,5000.00,Cardiology Center,2025-10-06
+CLM9001,Adam Johnson,E11,450.00,Provider Q,2025-10-07
