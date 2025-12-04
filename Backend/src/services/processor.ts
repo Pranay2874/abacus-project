@@ -104,6 +104,18 @@ export async function processFile(filePath: string, originalName: string, io: an
     seenIds.set(id, (seenIds.get(id) || 0) + 1);
   });
 
+  // OPTIMIZATION: Batch fetch all existing claim IDs at once
+  const allClaimIds = rows.map(r => r.claimId).filter(Boolean);
+  const existingClaims = await ClaimRecord.find({
+    claimId: { $in: allClaimIds }
+  }).lean();
+
+  // Create a map for O(1) lookup
+  const existingClaimsMap = new Map<string, any>();
+  existingClaims.forEach(claim => {
+    existingClaimsMap.set(claim.claimId, claim);
+  });
+
   // process each row
   for (let idx = 0; idx < rows.length; idx++) {
     const r = rows[idx];
@@ -133,9 +145,9 @@ export async function processFile(filePath: string, originalName: string, io: an
       rowIssues.push({ type: 'Duplicate within file', detail: claimId });
     }
 
-    // cross-file duplicate detection
+    // OPTIMIZED: cross-file duplicate detection using pre-fetched map
     if (claimId) {
-      const existing = await ClaimRecord.findOne({ claimId }).lean();
+      const existing = existingClaimsMap.get(claimId);
       if (existing) {
         rowIssues.push({ type: 'Cross-file duplicate claim', detail: `${existing.fileName} @ ${existing.uploadTimestamp}` });
       }
@@ -217,14 +229,16 @@ export async function processFile(filePath: string, originalName: string, io: an
     if (qualityScore < 50) {
       io.emit('quality_alert', { qualityScore, fileName: originalName });
     }
-    // cross-file duplicates: send a summary if any
+    // OPTIMIZED: cross-file duplicates using pre-fetched map
     const crossDupEvents = [] as any[];
     for (let i = 0; i < rows.length; i++) {
       const r = rows[i];
       const claimId = r.claimId || '';
       if (!claimId) continue;
-      const existing = await ClaimRecord.findOne({ claimId, fileName: { $ne: originalName } }).lean();
-      if (existing) crossDupEvents.push({ claimId, previousFile: existing.fileName, previousUpload: existing.uploadTimestamp });
+      const existing = existingClaimsMap.get(claimId);
+      if (existing && existing.fileName !== originalName) {
+        crossDupEvents.push({ claimId, previousFile: existing.fileName, previousUpload: existing.uploadTimestamp });
+      }
     }
     if (crossDupEvents.length) {
       io.emit('cross_file_duplicates', { duplicates: crossDupEvents });
