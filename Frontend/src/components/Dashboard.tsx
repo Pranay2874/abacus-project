@@ -3,6 +3,7 @@ import { Bar } from 'react-chartjs-2'
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Tooltip, Legend, ArcElement } from 'chart.js'
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend, ArcElement)
 import io from 'socket.io-client'
+import { API_BASE_URL } from '../config'
 
 function SummaryCard({ title, value }: { title: string, value: any }) {
   return (
@@ -17,7 +18,7 @@ export default function Dashboard({ data }: { data: any }) {
   const [toasts, setToasts] = useState<string[]>([]);
 
   useEffect(() => {
-    const socket = io('http://localhost:3000');
+    const socket = io(API_BASE_URL);
     socket.on('severity_alert', (d: any) => setToasts(t => [...t, `Severity ${d.severity} for ${d.fileName} (${Math.round(d.qualityScore)})`]))
     socket.on('cross_file_duplicates', (d: any) => setToasts(t => [...t, `Cross-file duplicates detected: ${d.duplicates.length}`]))
     socket.on('financial_alert', (d: any) => setToasts(t => [...t, `High affected amount: ${d.totalAffectedAmount}`]))
@@ -145,9 +146,9 @@ export default function Dashboard({ data }: { data: any }) {
                           <td className="p-1 text-xs">{a.detail}</td>
                           <td className="p-1">
                             <span className={`px-2 py-1 rounded text-xs ${a.severity === 'CRITICAL' ? 'bg-red-200 text-red-800' :
-                                a.severity === 'HIGH' ? 'bg-orange-200 text-orange-800' :
-                                  a.severity === 'MEDIUM' ? 'bg-yellow-200 text-yellow-800' :
-                                    'bg-blue-200 text-blue-800'
+                              a.severity === 'HIGH' ? 'bg-orange-200 text-orange-800' :
+                                a.severity === 'MEDIUM' ? 'bg-yellow-200 text-yellow-800' :
+                                  'bg-blue-200 text-blue-800'
                               }`}>{a.severity}</span>
                           </td>
                         </tr>
