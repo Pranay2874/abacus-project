@@ -178,7 +178,10 @@ export async function processFile(filePath: string, originalName: string, io: an
     perRowIssues.push(rowIssues);
   }
 
-  const issueRatio = totalRecords === 0 ? 0 : (totalIssues / totalRecords);
+  // Count records with at least one issue (not total issues)
+  // This prevents quality score from going below 0 when records have multiple anomalies
+  const recordsWithIssues = perRowIssues.filter(issues => issues.length > 0).length;
+  const issueRatio = totalRecords === 0 ? 0 : (recordsWithIssues / totalRecords);
   const qualityScore = Math.max(0, 100 - (issueRatio * 100));
   const severity = severityFromScore(qualityScore);
 
