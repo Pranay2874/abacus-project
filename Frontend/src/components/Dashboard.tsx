@@ -45,7 +45,6 @@ export default function Dashboard({ data }: { data: any }) {
     ]
   }
 
-  // determine row color based on file severity when the row has any issues
   function rowClassForRow(r: any, idx: number) {
     const base = idx % 2 === 0 ? 'bg-white' : 'bg-gray-50';
     const hasIssues = Array.isArray(r.issues) && r.issues.length > 0;
