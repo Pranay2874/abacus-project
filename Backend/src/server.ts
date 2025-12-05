@@ -10,21 +10,16 @@ dotenv.config();
 
 const app = express();
 
-// CORS configuration
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://abacus-project.onrender.com',
-  // Add your Vercel domain here once deployed
-  // 'https://your-app.vercel.app'
+  'https://abacus-project.onrender.com'
 ];
 
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
 
-    // Allow any Vercel preview/production deployments
     if (origin.endsWith('.vercel.app')) {
       return callback(null, true);
     }

@@ -7,7 +7,7 @@ import { processFile } from '../services/processor';
 const router = express.Router();
 
 const uploadDir = path.join(__dirname, '../../uploads');
-try { fs.mkdirSync(uploadDir, { recursive: true }); } catch (e) { /* ignore */ }
+try { fs.mkdirSync(uploadDir, { recursive: true }); } catch (e) { }
 const upload = multer({ dest: uploadDir });
 
 router.post('/', upload.single('file'), async (req, res) => {
@@ -17,10 +17,9 @@ router.post('/', upload.single('file'), async (req, res) => {
     const filePath = req.file.path;
     const originalName = req.file.originalname;
     const result = await processFile(filePath, originalName, io);
-    // remove file
-    try { fs.unlinkSync(filePath); } catch(e){}
+    try { fs.unlinkSync(filePath); } catch (e) { }
     res.json(result);
-  } catch (err:any) {
+  } catch (err: any) {
     console.error(err);
     res.status(500).json({ error: err.message || 'Server error' });
   }

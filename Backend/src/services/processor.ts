@@ -9,11 +9,11 @@ const VALID_ICD = new Set(icdFile.codes);
 
 type Issue = { type: string; detail?: string };
 
-// Schema validation function
+
 function validateRow(r: any, idx: number): Issue[] {
   const schemaIssues: Issue[] = [];
 
-  // Check for missing required fields
+
   if (!r.claimId || String(r.claimId).trim() === '') {
     schemaIssues.push({ type: 'Schema Error: Missing claimId' });
   }
@@ -30,7 +30,7 @@ function validateRow(r: any, idx: number): Issue[] {
     schemaIssues.push({ type: 'Schema Error: Missing date' });
   }
 
-  // Validate amount is numeric
+
   const amountStr = String(r.amount || '').replace(/[^0-9.-]+/g, '');
   const amount = parseFloat(amountStr);
   if (r.amount && (isNaN(amount) || amountStr === '')) {
@@ -39,7 +39,7 @@ function validateRow(r: any, idx: number): Issue[] {
     schemaIssues.push({ type: 'Schema Error: Missing amount' });
   }
 
-  // Validate date format (basic check)
+
   if (r.date) {
     const dateObj = new Date(r.date);
     if (isNaN(dateObj.getTime())) {
@@ -73,7 +73,7 @@ export async function processFile(filePath: string, originalName: string, io: an
   const issuesAffectedAmount: Record<string, number> = {};
   const perRowIssues: Issue[][] = [];
 
-  // Step 1: Schema Validation
+
   const validRows: any[] = [];
   const validRowIndices: number[] = [];
 
@@ -85,18 +85,18 @@ export async function processFile(filePath: string, originalName: string, io: an
     }
   });
 
-  // Step 2: Anomaly Detection (only on valid rows)
+
   const anomaliesMap = detectAnomalies(validRows);
   const allAnomalies: any[] = [];
 
-  // Map anomalies back to original row indices
+
   const originalAnomaliesMap: Record<number, any[]> = {};
   Object.keys(anomaliesMap).forEach(validIdx => {
     const originalIdx = validRowIndices[parseInt(validIdx)];
     originalAnomaliesMap[originalIdx] = anomaliesMap[parseInt(validIdx)];
   });
 
-  // within-file duplicates
+
   const seenIds = new Map<string, number>();
   rows.forEach((r, idx) => {
     const id = (r.claimId || '').toString();
@@ -104,24 +104,24 @@ export async function processFile(filePath: string, originalName: string, io: an
     seenIds.set(id, (seenIds.get(id) || 0) + 1);
   });
 
-  // OPTIMIZATION: Batch fetch all existing claim IDs at once
+
   const allClaimIds = rows.map(r => r.claimId).filter(Boolean);
   const existingClaims = await ClaimRecord.find({
     claimId: { $in: allClaimIds }
   }).lean();
 
-  // Create a map for O(1) lookup
+
   const existingClaimsMap = new Map<string, any>();
   existingClaims.forEach(claim => {
     existingClaimsMap.set(claim.claimId, claim);
   });
 
-  // process each row
+
   for (let idx = 0; idx < rows.length; idx++) {
     const r = rows[idx];
     const rowIssues: Issue[] = [];
 
-    // Add schema validation issues first
+
     const schemaIssues = validateRow(r, idx);
     rowIssues.push(...schemaIssues);
     const claimId = r.claimId ? String(r.claimId).trim() : '';
@@ -130,7 +130,7 @@ export async function processFile(filePath: string, originalName: string, io: an
     const amountRaw = r.amount || '0';
     const amount = parseFloat(String(amountRaw).replace(/[^0-9.-]+/g, '')) || 0;
 
-    // Only check business rules if schema is valid
+
     if (schemaIssues.length === 0) {
       if (diagnosisCode && !VALID_ICD.has(diagnosisCode)) {
         rowIssues.push({ type: 'Invalid ICD-10 code', detail: diagnosisCode });
@@ -145,7 +145,7 @@ export async function processFile(filePath: string, originalName: string, io: an
       rowIssues.push({ type: 'Duplicate within file', detail: claimId });
     }
 
-    // OPTIMIZED: cross-file duplicate detection using pre-fetched map
+
     if (claimId) {
       const existing = existingClaimsMap.get(claimId);
       if (existing) {
@@ -153,7 +153,7 @@ export async function processFile(filePath: string, originalName: string, io: an
       }
     }
 
-    // Add anomalies (from mapped indices)
+
     if (originalAnomaliesMap[idx]) {
       originalAnomaliesMap[idx].forEach(a => {
         rowIssues.push({ type: a.type, detail: a.detail });
@@ -163,13 +163,12 @@ export async function processFile(filePath: string, originalName: string, io: an
 
     if (rowIssues.length > 0) {
       totalAffectedAmount += amount;
-      // add this record's amount to each issue that affects it
       for (const it of rowIssues) {
         issuesAffectedAmount[it.type] = (issuesAffectedAmount[it.type] || 0) + amount;
       }
     }
 
-    // count issues
+
     for (const it of rowIssues) {
       totalIssues += 1;
       issuesCounts[it.type] = (issuesCounts[it.type] || 0) + 1;
@@ -178,14 +177,12 @@ export async function processFile(filePath: string, originalName: string, io: an
     perRowIssues.push(rowIssues);
   }
 
-  // Count records with at least one issue (not total issues)
-  // This prevents quality score from going below 0 when records have multiple anomalies
   const recordsWithIssues = perRowIssues.filter(issues => issues.length > 0).length;
   const issueRatio = totalRecords === 0 ? 0 : (recordsWithIssues / totalRecords);
   const qualityScore = Math.max(0, 100 - (issueRatio * 100));
   const severity = severityFromScore(qualityScore);
 
-  // Save ClaimRecords and QualityResult
+
   const uploadTimestamp = new Date();
 
   const claimDocs = [] as any[];
@@ -221,7 +218,7 @@ export async function processFile(filePath: string, originalName: string, io: an
   });
   await result.save();
 
-  // Emit socket events
+
   try {
     if (severity === 'HIGH' || severity === 'CRITICAL') {
       io.emit('severity_alert', { severity, qualityScore, fileName: originalName });
@@ -232,7 +229,7 @@ export async function processFile(filePath: string, originalName: string, io: an
     if (qualityScore < 50) {
       io.emit('quality_alert', { qualityScore, fileName: originalName });
     }
-    // OPTIMIZED: cross-file duplicates using pre-fetched map
+
     const crossDupEvents = [] as any[];
     for (let i = 0; i < rows.length; i++) {
       const r = rows[i];
@@ -250,7 +247,7 @@ export async function processFile(filePath: string, originalName: string, io: an
     console.warn('Socket emit failed', e);
   }
 
-  // attach per-row issues to parsed rows for frontend consumption
+
   const parsedWithIssues = rows.map((r, idx) => ({ ...r, issues: perRowIssues[idx] || [] }));
 
   return {
